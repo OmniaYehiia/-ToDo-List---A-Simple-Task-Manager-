@@ -6,6 +6,15 @@ body {
     text-align: center;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    padding-top: 20px;
+}
+
 p {
     color: #EE286C;
     transition: all 0.5s ease;
@@ -18,14 +27,6 @@ p:hover {
     cursor: pointer;
 }
 
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    height: 100vh;
-    padding-top: 20px;
-}
 
 #userinput {
     font-size: 25px;
@@ -51,6 +52,49 @@ p:hover {
     color: #EE286C;
 }
 
+ul {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: #06EE41;
+    list-style: none;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+li:hover {
+    text-decoration: line-through;
+    color: gray;
+    opacity: 0.7;
+    transition: all 0.3s ease;
+}
+
+.done-check {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.done-check:hover {
+    /* text-decoration: line-through; */
+    color: gray;
+    opacity: 0.7;
+    transition: all 0.3s ease;
+}
+
+.Completed {
+    text-decoration: line-through;
+    color: gray;
+    opacity: 0.7;
+    transition: all 0.3s ease;
+}
+
 .delete-btn {
     /* display: flex;
     align-items: center;
@@ -73,49 +117,6 @@ p:hover {
     background-color:black !important; 
     color: red !important;
     transition: all 0.2s ease !important ;
-}
-
-.done-check {
-    width: 20px;
-    height: 20px;
-    cursor: pointer;
-    margin-right: 10px;
-}
-
-.done-check:hover {
-    /* text-decoration: line-through; */
-    color: gray;
-    opacity: 0.7;
-    transition: all 0.3s ease;
-}
-
-li:hover {
-    text-decoration: line-through;
-    color: gray;
-    opacity: 0.7;
-    transition: all 0.3s ease;
-}
-
-.Completed {
-    text-decoration: line-through;
-    color: gray;
-    opacity: 0.7;
-    transition: all 0.3s ease;
-}
-
-ul {
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 25px;
-    color: #06EE41;
-    list-style: none;
-}
-
-li {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
-    font-size: 30px;
 }
 
 @keyframes fadeOut {
