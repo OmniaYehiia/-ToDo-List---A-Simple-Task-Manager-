@@ -1,1 +1,2 @@
-Simple ToDoList usin HTML, CSS, JavaScript
+# ToDoList
+Simple ToDoList using HTML, CSS, JavaScript
