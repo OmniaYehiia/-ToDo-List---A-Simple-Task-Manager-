@@ -1,0 +1,136 @@
+body {
+    background-color: #2F363E;
+    color: #EE286C;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+p {
+    color: #EE286C;
+    transition: all 0.5s ease;
+}
+
+p:hover {
+    color: gray;
+    text-decoration: line-through;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    padding-top: 20px;
+}
+
+#userinput {
+    font-size: 25px;
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    color: #FDE700;
+    border: none;
+    border-radius: 10px;
+}
+
+#enter {
+    font-size: 22px;
+    color: #FDE700;
+    background-color: black ;
+    font-family: 'Times New Roman', Times, serif;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#enter:hover {
+    color: #EE286C;
+}
+
+.delete-btn {
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    padding: 5px 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #FDE700;
+    background-color: #696866;
+    font-size: 13px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    transition: all 0.2s ease;
+}
+
+.delete-btn:hover {
+    background-color:black !important; 
+    color: red !important;
+    transition: all 0.2s ease !important ;
+}
+
+.done-check {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.done-check:hover {
+    /* text-decoration: line-through; */
+    color: gray;
+    opacity: 0.7;
+    transition: all 0.3s ease;
+}
+
+li:hover {
+    text-decoration: line-through;
+    color: gray;
+    opacity: 0.7;
+    transition: all 0.3s ease;
+}
+
+.Completed {
+    text-decoration: line-through;
+    color: gray;
+    opacity: 0.7;
+    transition: all 0.3s ease;
+}
+
+ul {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: #06EE41;
+    list-style: none;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+@keyframes fadeOut {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+.good-job {
+    position: absolute;
+    font-size: 20px;
+    color: #c66ee9;
+    background-color: #696866;
+    padding: 5px 10px;
+    border-radius: 10px;
+    animation: fadeOut 2s forwards;      
+    opacity: 0;
+    transition: opacity 0.2s;
+}
