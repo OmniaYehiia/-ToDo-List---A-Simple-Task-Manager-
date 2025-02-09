@@ -29,4 +29,4 @@ A simple and interactive To-Do List web application built using **HTML, CSS, and
 ## 🏗️ Installation & Setup
 1. Clone the repository:  
    ```sh
-   git clone https://github.com/OmniaYehiia/ToDoList.git
+   git clone https://github.com/OmniaYehiia/-ToDo-List---A-Simple-Task-Manager-.git
